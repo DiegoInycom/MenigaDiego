@@ -1,0 +1,447 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "0049",
+		"branch": "4318",
+		"controlDigits": "24",
+		"account": "2510035922",
+		"balance": {
+			"amount": "10220.31",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA 1 2 3",
+		"transactions": [{
+			"operationDate": "14/05/2018",
+			"valueDate": "13/05/2018",
+			"amount": {
+				"amount": "-59.60",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10220.31",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COMPRA EN E.S. ALCAMPO TO, TORREJON (MAD, TARJ. :*841901",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "11/05/2018",
+			"valueDate": "10/05/2018",
+			"amount": {
+				"amount": "16.96",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10279.91",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "BONIFICACION EN SU CUENTA 123 SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "11/05/2018",
+			"valueDate": "10/05/2018",
+			"amount": {
+				"amount": "-3.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10262.95",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COMISION DE EMISION Y RENOVACION UNICA POR EL CONJUNTO DE LAS TARJETAS 1|2|3",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "11/05/2018",
+			"valueDate": "10/05/2018",
+			"amount": {
+				"amount": "16.97",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10265.95",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "LIQUIDACION CUENTA 123 004943182510035922",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "07/05/2018",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "-1.05",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10248.98",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COMPRA ATPSEITT Aeropuert->Aero, MADRID, TARJETA 5489018958841901 , COMISION 0,00",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "07/05/2018",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "-1.05",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10250.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COMPRA ATPSEITT Alcobenda->Alco, MADRID, TARJETA 5489018958841901 , COMISION 0,00",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "07/05/2018",
+			"valueDate": "07/05/2018",
+			"amount": {
+				"amount": "-333.44",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10251.08",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0049 4318 755 BBCSLVR REF. MANDATO E00020920131193100020001",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "03/05/2018",
+			"valueDate": "03/05/2018",
+			"amount": {
+				"amount": "-40.60",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10584.52",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "RECIBO CANAL DE ISABEL II, S.A. Nº RECIBO 0049 4318 755 BBCSFXF REF. MANDATO 00019419581820160921",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "-62.16",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10625.12",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "RECIBO TELEFONICA DE ESPANA, S.A.U. Nº RECIBO 0049 4318 755 BBCSCMT REF. MANDATO X00104018656",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "-76.22",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10687.28",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "RECIBO IBERDROLA COMERCIALIZ. ULTIMO RECURSO, S Nº RECIBO 0049 4318 755 BBCRYKP REF. MANDATO 2949387",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "-72.73",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10763.50",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "LIQUIDACION DE LA TARJETA DE CREDITO 0049 4318 502 0002464",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "700.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10836.23",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRANSFERENCIA DE MARIA JESUS RODRIGO PALOMERO, CONCEPTO TRANSFERENCIA NOMINA.",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "1.56",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10136.23",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "ABONO RENDIMIENTOS 32,00 AC.BANCO SANTANDER S.A. CONTRATO 004943184000001473",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "-8.58",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10134.67",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "RECIBO ORANGE ESPAGNE S.A. Nº RECIBO 0049 4318 755 BBCSBTC REF. MANDATO OSP201610OC00003765442",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "28/04/2018",
+			"amount": {
+				"amount": "-55.86",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10143.25",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COMPRA EN E.S. ALCAMPO TO, TORREJON (MAD, TARJ. :*841901",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "17/04/2018",
+			"valueDate": "12/04/2018",
+			"amount": {
+				"amount": "-1.46",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10199.11",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "LIQUIDACION DEL COSTE DEL REGALO A OFICINA DE NEGOCIO O A CLIENTE",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "0049",
+		"branch": "4318",
+		"controlDigits": "24",
+		"accountNumber": "2510035922",
+		"holders": [{
+			"name": "ARIAS CASANOVA RAFAEL",
+			"document": "2618603F",
+			"relation": "TITULAR",
+			"category": "1"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "4000001473",
+		"webAlias": "ACCIONES",
+		"balance": {
+			"amount": "170.72",
+			"currency": "EUR"
+		},
+		"transactions": [{
+			"operationType": "-1",
+			"operationDescription": "AC.BANCO SANTANDER S.A.",
+			"market": "AC.BANCO SANTANDER S.A.",
+			"name": "AC.BANCO SANTANDER S.A.",
+			"operationDate": "16/05/2018",
+			"quantity": 32,
+			"unitPrice": {
+				"amount": "5.33",
+				"currency": "EUR"
+			},
+			"amount": {
+				"amount": "170.62",
+				"currency": "EUR"
+			}
+		}],
+		"stocks": [{
+			"name": " BANCO SANTANDER SA(SAN)",
+			"unitPrice": {
+				"amount": "5.34",
+				"currency": "EUR"
+			},
+			"quantity": "32.0",
+			"valuationDate": "16/05/2018",
+			"market": "<div>España - XMCE"
+		}]
+	}],
+	"creditCards": [{
+		"cardType": "C",
+		"cardNumber": "5415 4179 2022 4304",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "2600.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "2600.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "28/02/2021",
+		"webAlias": "Tarjetas Mundo 1 2 3.",
+		"transactions": [{
+			"transactionType": "5",
+			"valueDate": "18/04/2018",
+			"amount": {
+				"amount": "-9.99",
+				"currency": ""
+			},
+			"description": "BEIN CONNECT",
+			"comments": ""
+		}]
+	}],
+	"debitCards": [{
+		"cardType": "D",
+		"cardNumber": "5489 0189 5884 1901",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/10/2021",
+		"associatedAccount": "0049-4318-24-2510035922",
+		"webAlias": "4B MC (548901)",
+		"transactions": [{
+			"transactionType": "4",
+			"valueDate": "28/04/2018",
+			"amount": {
+				"amount": "-55.86",
+				"currency": ""
+			},
+			"description": "E.S. ALCAMPO TO",
+			"comments": ""
+		},
+		{
+			"transactionType": "4",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "-1.05",
+				"currency": ""
+			},
+			"description": "ATPSEITT  Alcobenda->Alco",
+			"comments": ""
+		},
+		{
+			"transactionType": "4",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "-1.05",
+				"currency": ""
+			},
+			"description": "ATPSEITT  Aeropuert->Aero",
+			"comments": ""
+		},
+		{
+			"transactionType": "4",
+			"valueDate": "13/05/2018",
+			"amount": {
+				"amount": "-59.60",
+				"currency": ""
+			},
+			"description": "E.S. ALCAMPO TO",
+			"comments": ""
+		}]
+	}],
+	"pensionPlans": [{
+		"planNumber": "004943180628220312",
+		"planName": "PP MI PLAN SANTANDER DECIDIDO",
+		"webAlias": "PP MI PLAN SANTANDER DECIDIDO",
+		"balance": {
+			"amount": "74822.28",
+			"currency": "EUR"
+		},
+		"unitPrice": "1.51884",
+		"totalContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"yearToDateContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"planPerformance": {
+			"total": "",
+			"yearToDate": "",
+			"lastTwelveMonths": ""
+		},
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "49262.77879",
+		"valueDate": "15/05/2018",
+		"startDate": "31/12/9999",
+		"transactions": []
+	}]
+}

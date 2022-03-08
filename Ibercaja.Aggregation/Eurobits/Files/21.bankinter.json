@@ -1,0 +1,142 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "0128",
+		"branch": "0010",
+		"controlDigits": "96",
+		"account": "0103044777",
+		"balance": {
+			"amount": "26.19",
+			"currency": "EUR"
+		},
+		"webAlias": "E-cuenta",
+		"transactions": []
+	}],
+	"accountHolders": [{
+		"bank": "0128",
+		"branch": "0010",
+		"controlDigits": "96",
+		"accountNumber": "0103044777",
+		"holders": [{
+			"name": "Daniel Fonseca Diaz",
+			"document": "",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	}],
+	"deposits": [{
+		"bank": "0128",
+		"branch": "0010",
+		"controlDigits": "91",
+		"accountNumber": "0300598595",
+		"number": "0",
+		"balance": {
+			"amount": "500.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "0.110",
+			"type": "TAE"
+		},
+		"duration": {
+			"startDate": "12/06/2017",
+			"endDate": "12/06/2018"
+		},
+		"webAlias": "Ipf A 365 Dias"
+	}],
+	"shares": [{
+		"accountNumber": "0010165977",
+		"webAlias": "Cuenta De Valores",
+		"balance": {
+			"amount": "18.02",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BKT/AC BANKINTER",
+			"unitPrice": {
+				"amount": "9.01",
+				"currency": "EUR"
+			},
+			"quantity": "2.0",
+			"valuationDate": "16/05/2018",
+			"market": ""
+		}]
+	}],
+	"funds": [{
+		"branch": "0010",
+		"controlDigits": "",
+		"accountNumber": "130583505",
+		"balance": {
+			"amount": "81.91",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "BANKINTER AHORRO ACTIVOS EU",
+		"webAlias": "BANKINTER AHORRO ACTIVOS EU (...3505)",
+		"performance": "-0.470",
+		"performanceDescription": "Rentab. 1 año",
+		"yield": {
+			"amount": "10.09",
+			"currency": "EUR"
+		},
+		"quantity": "0.095660",
+		"valueDate": "15/05/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "",
+		"cardNumber": "************9097",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "1202.02",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "1202.02",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "Visa Clasi",
+		"transactions": []
+	}],
+	"pensionPlans": [{
+		"planNumber": "0010130737715",
+		"planName": "BK RENTA FIJA CORTO PLAZO",
+		"webAlias": "BK RENTA FIJA CORTO PLAZO (...7715)",
+		"balance": {
+			"amount": "0.99",
+			"currency": "EUR"
+		},
+		"unitPrice": "8.95781",
+		"totalContribution": {
+			"amount": "1.00",
+			"currency": "EUR"
+		},
+		"yearToDateContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"planPerformance": {
+			"total": "-1.010 %",
+			"yearToDate": "-0.400 %",
+			"lastTwelveMonths": ""
+		},
+		"yield": {
+			"amount": "-0.01",
+			"currency": "EUR"
+		},
+		"quantity": "0.11050",
+		"valueDate": "31/12/9999",
+		"startDate": "31/12/9999",
+		"transactions": []
+	}]
+}

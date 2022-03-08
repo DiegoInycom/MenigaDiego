@@ -1,0 +1,101 @@
+{
+    "aggregationInfo": {
+                 "code": "R000",
+                 "message": "OK",
+                 "companies": [""],
+                 "warnings": [],
+                 "robotCode": "PRV72400012100"
+    },
+    "accounts": [{
+                 "bank": "**00",
+                 "branch": "**04",
+                 "controlDigits": "*4",
+                 "account": "****4643**",
+                 "balance": {
+                              "amount": "3.00",
+                              "currency": "EUR"
+                 },
+                 "webAlias": "imagin",
+                 "transactions": [{
+                              "operationDate": "27/09/2018",
+                              "valueDate": "27/09/2018",
+                              "amount": {
+                                           "amount": "1.00",
+                                           "currency": ""
+                              },
+                              "balance": {
+                                           "amount": "3.00",
+                                           "currency": ""
+                              },
+                              "transactionType": "1",
+                              "description": "CARD PURCH. RETURN - EUROBITS TECHNOLO",
+                              "reference": "4766649162281018",
+                              "payer": "",
+                              "payee": ""
+                 },
+                 {
+                              "operationDate": "27/09/2018",
+                              "valueDate": "27/09/2018",
+                              "amount": {
+                                           "amount": "-1.00",
+                                           "currency": ""
+                              },
+                              "balance": {
+                                           "amount": "2.00",
+                                           "currency": ""
+                              },
+                              "transactionType": "1",
+                              "description": "CARD PURCHASE - EUROBITS TECHNOLO",
+                              "reference": "4766649162281018",
+                              "payer": "",
+                              "payee": ""
+                 },
+                 {
+                              "operationDate": "14/09/2018",
+                              "valueDate": "14/09/2018",
+                              "amount": {
+                                           "amount": "2.00",
+                                           "currency": ""
+                              },
+                              "balance": {
+                                           "amount": "3.00",
+                                           "currency": ""
+                              },
+                              "transactionType": "1",
+                              "description": "BANCA DIGITAL - traspaso fondos prueba 2",
+                              "reference": "ARTURO GONZALEZ",
+                              "payer": "",
+                              "payee": ""
+                 },
+                 {
+                              "operationDate": "14/09/2018",
+                              "valueDate": "14/09/2018",
+                              "amount": {
+                                           "amount": "1.00",
+                                           "currency": ""
+                              },
+                              "balance": {
+                                           "amount": "1.00",
+                                           "currency": ""
+                              },
+                              "transactionType": "1",
+                              "description": "BANCA DIGITAL - traspaso fondos prueba",
+                              "reference": "ARTURO GONZALEZ",
+                              "payer": "",
+                              "payee": ""
+                 }]
+    }],
+    "accountHolders": [{
+                 "bank": "**00",
+                 "branch": "**04",
+                 "controlDigits": "*4",
+                 "accountNumber": "****4643**",
+                 "holders": [{
+                              "name": "ARTURO GONZALEZ MAC DOWELL",
+                              "document": "*********",
+                              "relation": "Titular",
+                              "category": "1",
+                              "type": "Titular"
+                 }]
+    }]
+}

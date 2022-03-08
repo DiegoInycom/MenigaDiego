@@ -1,0 +1,152 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "2085",
+		"branch": "9717",
+		"controlDigits": "24",
+		"account": "0330135670",
+		"balance": {
+			"amount": "4049.08",
+			"currency": "EUR"
+		},
+		"webAlias": "C.CTE",
+		"transactions": []
+	},
+	{
+		"bank": "2085",
+		"branch": "9717",
+		"controlDigits": "27",
+		"account": "0330135768",
+		"balance": {
+			"amount": "7.61",
+			"currency": "EUR"
+		},
+		"webAlias": "C.CTE",
+		"transactions": []
+	}],
+	"accountHolders": [{
+		"bank": "2085",
+		"branch": "9717",
+		"controlDigits": "24",
+		"accountNumber": "0330135670",
+		"holders": [{
+			"name": "GONZALEZ MAC DOWELL, ARTURO",
+			"document": "000814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "2085",
+		"branch": "9717",
+		"controlDigits": "27",
+		"accountNumber": "0330135768",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES SL",
+			"document": "B83852160",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "GONZALEZ MAC DOWELL, ARTURO",
+			"document": "000814788J",
+			"relation": "Disponente",
+			"category": "2"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "4036328942",
+		"webAlias": "Valores",
+		"balance": {
+			"amount": "8.41",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "Ac. Bankinter",
+			"unitPrice": {
+				"amount": "8.43",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "08/06/2018",
+			"market": ""
+		}]
+	}],
+	"funds": [{
+		"branch": "****",
+		"controlDigits": "**",
+		"accountNumber": "4154940036",
+		"balance": {
+			"amount": "82.28",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "HORIZONTE - Ibercaja Horizonte , FI",
+		"webAlias": "FONDO",
+		"performance": "0.00",
+		"performanceDescription": "Rentabilidad T.A.E. a   08/06/2018",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "7.648830",
+		"valueDate": "07/06/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "",
+		"cardNumber": "492163******2851",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "900.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "900.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "492163******2851-VISA",
+		"transactions": []
+	}],
+	"pensionPlans": [{
+		"planNumber": " 31.452881.39",
+		"planName": "PIP AHORRO DINAMICO (PIPAHORRODINAM)",
+		"webAlias": "",
+		"balance": {
+			"amount": "9.97",
+			"currency": "EUR"
+		},
+		"unitPrice": "12.34667",
+		"totalContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"yearToDateContribution": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"planPerformance": {
+			"total": "",
+			"yearToDate": "",
+			"lastTwelveMonths": ""
+		},
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "0.80790",
+		"valueDate": "06/06/2018",
+		"startDate": "31/12/9999",
+		"transactions": []
+	}]
+}

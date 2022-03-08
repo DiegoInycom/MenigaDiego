@@ -1,0 +1,26 @@
+﻿servicesBaseUrl=http://localhost:8081/
+mmsUrl=http://localhost:8081/
+
+defaultPassword=123456
+changedPassword=111111
+defaultCulture=sv-SE
+
+useExistingUser=true
+existingUser=test@meniga.com
+existingUserPassword=123456
+deleteContextUserAfterTests=true
+
+createdContextUserNamePrefix=autotestSabadell
+
+// MMS settings:
+//mmsToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250ZXh0Ijp7IlVzZXJJZCI6MSwiUGVyc29uSWQiOjEsIkFkbWluSWQiOm51bGwsIkVuZHBvaW50SWQiOm51bGwsIkV4aXN0c0V4dGVybmFsbHkiOmZhbHNlLCJDdWx0dXJlIjoiZW4tR0IiLCJBdWRpdFJlY29yZCI6bnVsbCwiRm9yZWlnblJlcXVlc3RJRCI6bnVsbH0sInN1YiI6ImJmQG1lbmlnYS5jb20iLCJleHAiOjE1MDU5OTMxMjl9.nCd9XbnlIjWUJlfPXUvE0yN16EiR1IzRekVwj8sI-DQ
+
+// User events settings:
+waitForEventInSeconds=10
+scheduleReportsAfterMinutes=2
+
+// Realm settings:
+defaultRealm=demo
+
+//System settings:
+isMulticurrencyEnv=true

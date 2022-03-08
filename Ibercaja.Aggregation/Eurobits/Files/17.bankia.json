@@ -1,0 +1,1113 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": [{
+			"warningCause": "Duplicated transactions among accounts",
+			"warningDetails": "Transaction: ##com.eurobits.agregador.comun.products.AccountTransactionsSkl@20fdecf4[version=,transactionType=1,operationDate=Tue May 01 00:00:00 CEST 2018,valueDate=Tue May 01 00:00:00 CEST 2018,description=POR SER TU, DEVOLUCION POR COMISION CUENTA,quantity=1.0,reference=POR SER TU, DEVOLUCION POR COMISION CUENTA,payer=,payee=,relativeBalance=0.0,discarded=false,failed=false,completedAllPhases=true,registryId=<null>]##. Products(ocurrences): 6001258871 (1) / 6001258754 (1) / ."
+		},
+		{
+			"warningCause": "Duplicated transactions among accounts",
+			"warningDetails": "Transaction: ##com.eurobits.agregador.comun.products.AccountTransactionsSkl@19c764b[version=,transactionType=1,operationDate=Tue May 01 00:00:00 CEST 2018,valueDate=Tue May 01 00:00:00 CEST 2018,description=CARGO POR COBRO DE SERVICIOS,quantity=-1.0,reference=COMISION ADMINISTRACION,payer=,payee=,relativeBalance=-1.0,discarded=false,failed=false,completedAllPhases=true,registryId=<null>]##. Products(ocurrences): 6001258871 (1) / 6001258754 (1) / ."
+		}]
+	},
+	"accounts": [{
+		"bank": "2038",
+		"branch": "2446",
+		"controlDigits": "12",
+		"account": "3001137771",
+		"balance": {
+			"amount": "10.78",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA JOVEN",
+		"transactions": [{
+			"operationDate": "14/05/2018",
+			"valueDate": "14/05/2018",
+			"amount": {
+				"amount": "-17.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "10.78",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TOMMY MEL'S - TOMMY MEL'S",
+			"reference": "COMPRA COMERCIO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "11/05/2018",
+			"valueDate": "11/05/2018",
+			"amount": {
+				"amount": "20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "27.78",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "10/05/2018",
+			"valueDate": "09/05/2018",
+			"amount": {
+				"amount": "-15.25",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "7.78",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "BURGER KING ROZAS - BURGER KING ROZAS",
+			"reference": "COMPRA COMERCIO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "09/05/2018",
+			"valueDate": "09/05/2018",
+			"amount": {
+				"amount": "-20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "23.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "REINTEGRO CAJERO AUTOMATICO - BANKIA              2446 0021",
+			"reference": "REINTEGRO EN CAJERO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "07/05/2018",
+			"valueDate": "07/05/2018",
+			"amount": {
+				"amount": "20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "43.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRANSFERENCIA DE ARTURO GONZALEZ MAC DOWELL          0128",
+			"reference": "PARA PAGAR EL ABONO DE TRANSPORTE",
+			"payer": "ARTURO GONZALEZ MAC DOWELL          0128",
+			"payee": "Arturo Gonz lez Fern ndez"
+		},
+		{
+			"operationDate": "04/05/2018",
+			"valueDate": "04/05/2018",
+			"amount": {
+				"amount": "20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "23.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "-13.55",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "3.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CAFETERIA VIPS - CAFETERIA VIPS",
+			"reference": "COMPRA COMERCIO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "27/04/2018",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "-9.30",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "16.58",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "SAL BRAVO, S.L. - SAL BRAVO, S.L.",
+			"reference": "COMPRA COMERCIO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "27/04/2018",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "25.88",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "25/04/2018",
+			"valueDate": "25/04/2018",
+			"amount": {
+				"amount": "-6.30",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "5.88",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CATERGEST - CATERGEST",
+			"reference": "COMPRA COMERCIO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "24/04/2018",
+			"valueDate": "24/04/2018",
+			"amount": {
+				"amount": "-9.85",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "12.18",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CATERGEST SL (CAFE - CATERGEST SL (CAFET UNIVE",
+			"reference": "COMPRA COMERCIO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "20/04/2018",
+			"valueDate": "20/04/2018",
+			"amount": {
+				"amount": "20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "22.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "70",
+		"account": "6001133002",
+		"balance": {
+			"amount": "492.90",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA rara",
+		"transactions": [{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "5.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "492.90",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"reference": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "-5.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "487.90",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGO POR COBRO DE SERVICIOS",
+			"reference": "COMISION MANTENIMIENTO",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "0.50",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "492.90",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"reference": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "-0.50",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "492.40",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGO POR COBRO DE SERVICIOS",
+			"reference": "COMISION ADMINISTRACION",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "20/04/2018",
+			"valueDate": "20/04/2018",
+			"amount": {
+				"amount": "10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "492.90",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "TX MONITOR",
+			"payer": "EUROBITS TECHNOLOGIE",
+			"payee": "EUROBITS TECHNOLOGIES S.L."
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "72",
+		"account": "6001258871",
+		"balance": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTAS",
+		"transactions": [{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "0.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"reference": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "-1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "-1.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGO POR COBRO DE SERVICIOS",
+			"reference": "COMISION ADMINISTRACION",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "37.54",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "0.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "traspaso interno",
+			"payer": "EUROBITS TECHNOLOGIE",
+			"payee": "EUROBITS TECHNOLOGIES, S.L"
+		},
+		{
+			"operationDate": "25/04/2018",
+			"valueDate": "25/04/2018",
+			"amount": {
+				"amount": "-32.54",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "-37.54",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGOS VARIOS",
+			"reference": "CTA DE CREDITO 21.942.173/53",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "25/04/2018",
+			"valueDate": "25/04/2018",
+			"amount": {
+				"amount": "-5.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "-5.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGO GASTOS DE PRESTAMO",
+			"reference": "CREDITO 21.942.173/53",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1540",
+		"controlDigits": "67",
+		"account": "6000239007",
+		"balance": {
+			"amount": "340.03",
+			"currency": "EUR"
+		},
+		"webAlias": "ES2620381540676000239007",
+		"transactions": [{
+			"operationDate": "16/05/2018",
+			"valueDate": "16/05/2018",
+			"amount": {
+				"amount": "100.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "340.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRANSFERENCIA DE ARTURO GONZALEZ MAC DOWELL          0128",
+			"reference": "PARA LUEGO HACER TRANSFERENCIAS SEMANALES A ARTURO",
+			"payer": "ARTURO GONZALEZ MAC DOWELL          0128",
+			"payee": "Arturo Gonz lez Mac Dowell"
+		},
+		{
+			"operationDate": "11/05/2018",
+			"valueDate": "11/05/2018",
+			"amount": {
+				"amount": "-20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "240.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "SU ORDEN DE TRASPASO",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "04/05/2018",
+			"valueDate": "04/05/2018",
+			"amount": {
+				"amount": "-20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "260.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "SU ORDEN DE TRASPASO",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "280.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRANSFERENCIA DE EUROBITS TECHNOLOGIE",
+			"reference": "TX MONITOR",
+			"payer": "EUROBITS TECHNOLOGIE",
+			"payee": "ARTURO GONZALEZ MAC DOWELL"
+		},
+		{
+			"operationDate": "27/04/2018",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "-20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "260.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "SU ORDEN DE TRASPASO",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "20/04/2018",
+			"valueDate": "20/04/2018",
+			"amount": {
+				"amount": "-20.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "280.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "SU ORDEN DE TRASPASO",
+			"reference": "TX Arturo",
+			"payer": "ARTURO GONZALEZ MAC",
+			"payee": "Arturo González Fernández"
+		},
+		{
+			"operationDate": "17/04/2018",
+			"valueDate": "17/04/2018",
+			"amount": {
+				"amount": "100.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "300.03",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRANSFERENCIA DE ARTURO GONZALEZ MAC DOWELL          0128",
+			"reference": "PARA LUEGO HACER TRANSFERENCIAS SEMANALES A ARTURO",
+			"payer": "ARTURO GONZALEZ MAC DOWELL          0128",
+			"payee": "Arturo Gonz lez Mac Dowell"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1540",
+		"controlDigits": "69",
+		"account": "6000484063",
+		"balance": {
+			"amount": "7136.78",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA FACIL",
+		"transactions": [{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "-45.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "7136.78",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COFIDIS S.A., SUCU",
+			"reference": "PEC0029610032638000000000002498995220180502 Recibo",
+			"payer": "COFIDIS S.A., SUCURSAL EN ESPANA",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "5700",
+		"controlDigits": "13",
+		"account": "6000603623",
+		"balance": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA BANKIALINK",
+		"transactions": []
+	},
+	{
+		"bank": "2038",
+		"branch": "2274",
+		"controlDigits": "71",
+		"account": "6001057487",
+		"balance": {
+			"amount": "0.23",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA FACIL",
+		"transactions": [{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "-3000.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "0.23",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "SU ORDEN DE TRASPASO",
+			"reference": "CARGO POR IMPOSICION PLAZO 20382274741400681127",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "3000.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "3000.23",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "ABONO TRASPASO PLZO.20382274761400676493",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "0.06",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "0.23",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "ABONO DE INTERESES DE PLAZO",
+			"reference": "ABONO INTERESES DEPOSITO 20382274761400676493",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "78",
+		"account": "6001258754",
+		"balance": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTAS",
+		"transactions": [{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "0.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"reference": "POR SER TU, DEVOLUCION POR COMISION CUENTA",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "-1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "-1.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGO POR COBRO DE SERVICIOS",
+			"reference": "COMISION ADMINISTRACION",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "1486.63",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "0.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TRASPASO A SU FAVOR",
+			"reference": "traspaso interno",
+			"payer": "EUROBITS TECHNOLOGIE",
+			"payee": "EUROBITS TECHNOLOGIES, S.L"
+		},
+		{
+			"operationDate": "25/04/2018",
+			"valueDate": "25/04/2018",
+			"amount": {
+				"amount": "-486.63",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "-1486.63",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGOS VARIOS",
+			"reference": "CTA DE CREDITO 21.942.168/10",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "25/04/2018",
+			"valueDate": "25/04/2018",
+			"amount": {
+				"amount": "-1000.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "-1000.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CARGO GASTOS DE PRESTAMO",
+			"reference": "CREDITO 21.942.168/10",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "2038",
+		"branch": "2446",
+		"controlDigits": "12",
+		"accountNumber": "3001137771",
+		"holders": [{
+			"name": "ARTURO GONZALEZ FERNANDEZ",
+			"document": "054479352B",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "PALOMA FERNANDEZ GAMELLA",
+			"document": "005404464Q",
+			"relation": "Autoriz.padres/tut",
+			"category": "0"
+		},
+		{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Autoriz.padres/tut",
+			"category": "0"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "70",
+		"accountNumber": "6001133002",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES, S.L",
+			"document": " B83852160",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Autorizado",
+			"category": "2"
+		},
+		{
+			"name": "MARIA JESUS LALINDE BEAMONTE",
+			"document": "007238480N",
+			"relation": "Autorizado",
+			"category": "2"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "72",
+		"accountNumber": "6001258871",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES, S.L",
+			"document": " B83852160",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Autorizado",
+			"category": "2"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1540",
+		"controlDigits": "67",
+		"accountNumber": "6000239007",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1540",
+		"controlDigits": "69",
+		"accountNumber": "6000484063",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "5700",
+		"controlDigits": "13",
+		"accountNumber": "6000603623",
+		"holders": []
+	},
+	{
+		"bank": "2038",
+		"branch": "2274",
+		"controlDigits": "71",
+		"accountNumber": "6001057487",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "78",
+		"accountNumber": "6001258754",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES, S.L",
+			"document": " B83852160",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "Autorizado",
+			"category": "2"
+		}]
+	}],
+	"deposits": [{
+		"bank": "2038",
+		"branch": "2274",
+		"controlDigits": "74",
+		"accountNumber": "1400681127",
+		"number": "0",
+		"balance": {
+			"amount": "3000.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "",
+			"type": ""
+		},
+		"duration": {
+			"startDate": "31/12/9999",
+			"endDate": "31/12/9999"
+		},
+		"webAlias": "DEPOSITO FACIL"
+	},
+	{
+		"bank": "2038",
+		"branch": "1101",
+		"controlDigits": "76",
+		"accountNumber": "1400451126",
+		"number": "1",
+		"balance": {
+			"amount": "2000.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "",
+			"type": ""
+		},
+		"duration": {
+			"startDate": "31/12/9999",
+			"endDate": "31/12/9999"
+		},
+		"webAlias": "DEPOSITO FACIL"
+	}],
+	"shares": [{
+		"accountNumber": "060512723737",
+		"webAlias": "CUENTA DE VALORES",
+		"balance": {
+			"amount": "0.02",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "AC. ABENGOA CL B",
+			"unitPrice": {
+				"amount": "0.01",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "16/05/2018",
+			"market": "MCV"
+		},
+		{
+			"name": "WRT.ABENGOA B 3/17",
+			"unitPrice": {
+				"amount": "0.01",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "16/05/2018",
+			"market": "MCV"
+		}]
+	},
+	{
+		"accountNumber": "060572750605",
+		"webAlias": "CUENTA DE VALORES",
+		"balance": {
+			"amount": "7.30",
+			"currency": "EUR"
+		},
+		"transactions": [{
+			"operationType": "-1",
+			"operationDescription": "REPARTO-DIVIDENDOS",
+			"market": "",
+			"name": "AC. BANKIA, SA.",
+			"operationDate": "20/04/2018",
+			"quantity": 2,
+			"unitPrice": {
+				"amount": "0.00",
+				"currency": "EUR"
+			},
+			"amount": {
+				"amount": "0.18",
+				"currency": "EUR"
+			}
+		}],
+		"stocks": [{
+			"name": "AC. BANKIA, SA.",
+			"unitPrice": {
+				"amount": "3.65",
+				"currency": "EUR"
+			},
+			"quantity": "2.0",
+			"valuationDate": "16/05/2018",
+			"market": "MCV"
+		}]
+	},
+	{
+		"accountNumber": "154000102921",
+		"webAlias": "CUENTA DE VALORES",
+		"balance": {
+			"amount": "1.65",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "AC. PHARMA MAR",
+			"unitPrice": {
+				"amount": "1.66",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "16/05/2018",
+			"market": "MCV"
+		}]
+	}],
+	"funds": [{
+		"branch": "",
+		"controlDigits": "",
+		"accountNumber": "198000462253",
+		"balance": {
+			"amount": "11.91",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "B EVOLUCION PRUDEN",
+		"webAlias": "Fondo eurobits",
+		"performance": "",
+		"performanceDescription": "***",
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "0.093094",
+		"valueDate": "13/05/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "C",
+		"cardNumber": "4378641365771010",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "VISA CLASSIC BMN",
+		"transactions": []
+	},
+	{
+		"cardType": "C",
+		"cardNumber": "4506251617836002",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "1000.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "1000.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "CREDITO CONTACTLES",
+		"transactions": []
+	}],
+	"debitCards": [{
+		"cardType": "D",
+		"cardNumber": "04599900056829500",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"associatedAccount": "20381540696000484063",
+		"webAlias": "DEBITO OR. BLK",
+		"transactions": []
+	},
+	{
+		"cardType": "D",
+		"cardNumber": "05256380004719072",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"associatedAccount": "20381101796001132927",
+		"webAlias": "BUSINESS DEBITO",
+		"transactions": []
+	}],
+	"pensionPlans": [{
+		"planNumber": "15409220038580",
+		"planName": "BANKIA MODERADO",
+		"webAlias": "Plan de Bankia",
+		"balance": {
+			"amount": "30.44",
+			"currency": "EUR"
+		},
+		"unitPrice": "77.769698082",
+		"totalContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"yearToDateContribution": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"planPerformance": {
+			"total": "",
+			"yearToDate": "",
+			"lastTwelveMonths": ""
+		},
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "",
+		"valueDate": "15/05/2018",
+		"startDate": "31/12/9999",
+		"transactions": []
+	}]
+}

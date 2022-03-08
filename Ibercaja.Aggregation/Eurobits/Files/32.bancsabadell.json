@@ -1,0 +1,203 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "0081",
+		"branch": "0627",
+		"controlDigits": "39",
+		"account": "0001082016",
+		"balance": {
+			"amount": "255.87",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA RELACIÓN",
+		"transactions": [{
+			"operationDate": "24/04/2018",
+			"valueDate": "23/04/2018",
+			"amount": {
+				"amount": "-7.26",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "255.87",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CUSTODIA VALORES .",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "0081",
+		"branch": "0627",
+		"controlDigits": "37",
+		"account": "0001082214",
+		"balance": {
+			"amount": "1261.70",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA RELACIÓN",
+		"transactions": [{
+			"operationDate": "27/04/2018",
+			"valueDate": "27/04/2018",
+			"amount": {
+				"amount": "0.16",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1261.70",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "CUPON-PRIMAS ACC. BANCO DE SABADELL",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "0081",
+		"branch": "0627",
+		"controlDigits": "39",
+		"accountNumber": "0001082016",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "0081",
+		"branch": "0627",
+		"controlDigits": "37",
+		"accountNumber": "0001082214",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES S.L",
+			"document": "B83852160",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "814788J",
+			"relation": "Autorizado",
+			"category": "2"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "6078632484",
+		"webAlias": "ARTURO GONZALEZ MAC DOWELL",
+		"balance": {
+			"amount": "138.21",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BANKINTER",
+			"unitPrice": {
+				"amount": "",
+				"currency": "Default"
+			},
+			"quantity": "NaN",
+			"valuationDate": "16/05/2018",
+			"market": "CONTINUO"
+		}]
+	},
+	{
+		"accountNumber": "0032059217",
+		"webAlias": "EUROBITS TECHNOLOGIES S.L",
+		"balance": {
+			"amount": "6.98",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BANCO DE SABADELL",
+			"unitPrice": {
+				"amount": "",
+				"currency": "Default"
+			},
+			"quantity": "NaN",
+			"valuationDate": "16/05/2018",
+			"market": "CONTINUO"
+		}]
+	}],
+	"funds": [{
+		"branch": "0000",
+		"controlDigits": "50",
+		"accountNumber": "5066456515",
+		"balance": {
+			"amount": "11.82",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "SABADELL ESPAÑA BOLSA, FI-BASE",
+		"webAlias": "SABADELL ESPAÑA BOLSA, FI-BASE",
+		"performance": "",
+		"performanceDescription": "",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "1.045820",
+		"valueDate": "14/05/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "MC EMPRESA ORO",
+		"cardNumber": "5566710335413018",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "1200.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "1200.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "002810335413 -   ",
+		"transactions": []
+	}],
+	"pensionPlans": [{
+		"planNumber": "9202-0901-23-7134152633",
+		"planName": "PENTAPENSION, P.P.",
+		"webAlias": "",
+		"balance": {
+			"amount": "101.58",
+			"currency": "EUR"
+		},
+		"unitPrice": "101.58",
+		"totalContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"yearToDateContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"planPerformance": {
+			"total": "",
+			"yearToDate": "",
+			"lastTwelveMonths": ""
+		},
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "14.08682735",
+		"valueDate": "14/05/2018",
+		"startDate": "31/12/9999",
+		"transactions": []
+	}]
+}

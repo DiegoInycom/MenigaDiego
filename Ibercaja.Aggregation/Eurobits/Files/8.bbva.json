@@ -1,0 +1,732 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": [{
+			
+		}]
+	},
+	"accounts": [{
+		"bank": "0182",
+		"branch": "9465",
+		"controlDigits": "62",
+		"account": "0203435548",
+		"balance": {
+			"amount": "55444.50",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTAS PERSONALES",
+		"transactions": [
+			{
+				"operationDate": "22/02/2022",
+				"valueDate": "22/02/2022",
+				"amount": {
+					"amount": "-50.25",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "5500505050.5",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Gasto en cuenta",
+				"reference": "01829465680200778712",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "22/02/2022",
+				"valueDate": "22/02/2022",
+				"amount": {
+					"amount": "55.25",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "50505055.5",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Ingreso en cuenta",
+				"reference": "01829465680200778712",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "22/02/2022",
+				"valueDate": "22/02/2022",
+				"amount": {
+					"amount": "-55.00",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-54.5",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Traspaso a cuenta",
+				"reference": "01829465620203435548",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "09/12/2020",
+				"valueDate": "09/12/2020",
+				"amount": {
+					"amount": "-30.00",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-551.50",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Traspaso a cuenta",
+				"reference": "01829465620203435548",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "22/01/2022",
+				"valueDate": "22/01/2022",
+				"amount": {
+					"amount": "355.00",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-554.50",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Traspaso desde cuenta",
+				"reference": "01829465680200778712",
+				"payer": "",
+				"payee": ""
+			}
+		]
+	},
+	{
+		"bank": "0182",
+		"branch": "9465",
+		"controlDigits": "68",
+		"account": "0200778712",
+		"balance": {
+			"amount": "1027.51",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTAS PERSONALES",
+		"transactions": [{
+			"operationDate": "14/05/2018",
+			"valueDate": "14/05/2018",
+			"amount": {
+				"amount": "-3.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1027.51",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso a cuenta",
+			"reference": "01829465680200778712",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "25/04/2018",
+			"valueDate": "25/04/2018",
+			"amount": {
+				"amount": "3.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1030.51",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso desde cuenta",
+			"reference": "01829465620203435548",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "16/04/2018",
+			"valueDate": "16/04/2018",
+			"amount": {
+				"amount": "-3.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1027.51",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso a cuenta",
+			"reference": "01829465680200778712",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "0182",
+		"branch": "4094",
+		"controlDigits": "18",
+		"account": "0201739577",
+		"balance": {
+			"amount": "5423.43",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta 3",
+		"transactions": [{
+			"operationDate": "14/05/2018",
+			"valueDate": "14/05/2018",
+			"amount": {
+				"amount": "400.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "5423.43",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Cuota plan ahorro",
+			"reference": "Otros",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "0182",
+		"branch": "4094",
+		"controlDigits": "19",
+		"account": "0201739843",
+		"balance": {
+			"amount": "856.73",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta 5",
+		"transactions": [{
+			"operationDate": "14/05/2018",
+			"valueDate": "14/05/2018",
+			"amount": {
+				"amount": "-400.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "856.73",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Cuota plan ahorro",
+			"reference": "Otros",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "08/05/2018",
+			"valueDate": "08/05/2018",
+			"amount": {
+				"amount": "500.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1256.73",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Abono adeudo traspaso efectivo",
+			"reference": "Orden de trans. de efectivo recibida",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "03/05/2018",
+			"valueDate": "03/05/2018",
+			"amount": {
+				"amount": "-69.20",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "756.73",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Adeudo sanitas s a  de seguros",
+			"reference": "Adeudo nº 2018117002460190",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "03/05/2018",
+			"valueDate": "03/05/2018",
+			"amount": {
+				"amount": "-267.53",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "825.93",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Adeudo sanitas s a  de seguros",
+			"reference": "Adeudo nº 2018115001014386",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "0.27",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1093.46",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Abono por intereses de imposicion",
+			"reference": "Intereses y bonificaciones recibidos",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "30/04/2018",
+			"valueDate": "30/04/2018",
+			"amount": {
+				"amount": "-77.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1093.19",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Adeudo gestion sport fitness  s a",
+			"reference": "Adeudo nº 2018120001757527",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "23/04/2018",
+			"valueDate": "23/04/2018",
+			"amount": {
+				"amount": "-60.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1170.19",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Adeudo cdad prop california village",
+			"reference": "Adeudo nº 2018113000056969",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "0182",
+		"branch": "9465",
+		"controlDigits": "62",
+		"accountNumber": "0203435548",
+		"holders": [{
+			"name": "GONZALEZ MAC DOWELL, ARTURO",
+			"document": "000814788J",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "GONZALEZ MAC DOWELL, Manoli",
+			"document": "000924788J",
+			"relation": "Beneficiario",
+			"category": "2"
+		}]
+	}],
+	"deposits": [{
+		"bank": "0182",
+		"branch": "7080",
+		"controlDigits": "",
+		"accountNumber": "04100150051",
+		"number": "0",
+		"balance": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "0,01",
+			"type": "TAE"
+		},
+		"duration": {
+			"startDate": "26/06/2008",
+			"endDate": "03/07/2018"
+		},
+		"webAlias": "DEPOSITO EN EUROS"
+	},
+	{
+		"bank": "0182",
+		"branch": "4094",
+		"controlDigits": "",
+		"accountNumber": "04100161156",
+		"number": "1",
+		"balance": {
+			"amount": "4000.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "0,1",
+			"type": "TAE"
+		},
+		"duration": {
+			"startDate": "08/05/2013",
+			"endDate": "01/06/2018"
+		},
+		"webAlias": "DEPOSITO EN EUROS"
+	}],
+	"shares": [{
+		"accountNumber": "93015367406",
+		"webAlias": "CUENTAS DE VALORES",
+		"balance": {
+			"amount": "9.06",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BANKINTER",
+			"unitPrice": {
+				"amount": "9.06",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "16/05/2018",
+			"market": "MCE"
+		}]
+	},
+	{
+		"accountNumber": "93015229559",
+		"webAlias": "CUENTAS DE VALORES",
+		"balance": {
+			"amount": "0.02",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "URBAS GRUPO FINANCIERO",
+			"unitPrice": {
+				"amount": "0.01",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "15/05/2018",
+			"market": "MCE"
+		},
+		{
+			"name": "VERTICE 360 GRADOS",
+			"unitPrice": {
+				"amount": "0.01",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "15/05/2018",
+			"market": "MCE"
+		}]
+	},
+	{
+		"accountNumber": "93017121404",
+		"webAlias": "CUENTAS DE VALORES",
+		"balance": {
+			"amount": "9.06",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BANKINTER",
+			"unitPrice": {
+				"amount": "9.06",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "16/05/2018",
+			"market": "MCE"
+		}]
+	}],
+	"funds": [{
+		"branch": "4094",
+		"controlDigits": "",
+		"accountNumber": "810009294454",
+		"balance": {
+			"amount": "64.77",
+			"currency": "EUR"
+		},
+		"number": "18",
+		"fundName": "BBVA DINERO FT CORTO PLAZO FI",
+		"webAlias": "BBVA DINERO FT CORTO PLAZO FI",
+		"performance": "-0.002",
+		"performanceDescription": "Anual",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "0.0446617",
+		"valueDate": "14/05/2018",
+		"transactions": []
+	},
+	{
+		"branch": "4094",
+		"controlDigits": "",
+		"accountNumber": "810015370978",
+		"balance": {
+			"amount": "13.08",
+			"currency": "EUR"
+		},
+		"number": "19",
+		"fundName": "BBVA BOLSA FI",
+		"webAlias": "BBVA BOLSA FI",
+		"performance": "0.061",
+		"performanceDescription": "Anual",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "0.51561",
+		"valueDate": "14/05/2018",
+		"transactions": []
+	},
+	{
+		"branch": "4094",
+		"controlDigits": "",
+		"accountNumber": "810009970648",
+		"balance": {
+			"amount": "1022.47",
+			"currency": "EUR"
+		},
+		"number": "20",
+		"fundName": "BBVA BOLSA DESARROL.SOST.ISR,FI",
+		"webAlias": "BBVA BOLSA DESARROL.SOST.ISR,FI",
+		"performance": "0.011",
+		"performanceDescription": "Anual",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "58.8149263",
+		"valueDate": "14/05/2018",
+		"transactions": []
+	},
+	{
+		"branch": "9465",
+		"controlDigits": "",
+		"accountNumber": "810013656500",
+		"balance": {
+			"amount": "8.24",
+			"currency": "EUR"
+		},
+		"number": "21",
+		"fundName": "QUALITY INVER.DECIDIDA, FI",
+		"webAlias": "QUALITY INVER.DECIDIDA, FI",
+		"performance": "0.005",
+		"performanceDescription": "Anual",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "0.6881586",
+		"valueDate": "13/05/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "TARJETA_CREDITO",
+		"cardNumber": "4273060166104832",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "CREDITO",
+		"transactions": [
+			{
+				"operationDate": "01/05/2021",
+				"valueDate": "01/05/2021",
+				"amount": {
+					"amount": "-500.25",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "5500505050.5",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Gasto en tarjeta",
+				"reference": "01829465680200778712",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "01/05/2021",
+				"valueDate": "01/05/2021",
+				"amount": {
+					"amount": "-550.25",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "50505055.5",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Ingreso en tarjeta",
+				"reference": "01829465680200778712",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "13/12/2020",
+				"valueDate": "13/12/2020",
+				"amount": {
+					"amount": "-55.00",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-54.5",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Traspaso a cuenta",
+				"reference": "01829465620203435548",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "09/12/2020",
+				"valueDate": "09/12/2020",
+				"amount": {
+					"amount": "-30.00",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-551.50",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Traspaso a cuenta",
+				"reference": "01829465620203435548",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "09/12/2020",
+				"valueDate": "09/12/2020",
+				"amount": {
+					"amount": "355.00",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-554.50",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "Traspaso desde cuenta",
+				"reference": "01829465680200778712",
+				"payer": "",
+				"payee": ""
+			}
+		]
+	},
+	{
+		"cardType": "TARJETA_CREDITO",
+		"cardNumber": "4548027110099557",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "1800.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "1800.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "CREDITO",
+		"transactions": []
+	},
+	{
+		"cardType": "TARJETA_SENDO",
+		"cardNumber": "4343870000905731",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "600.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "SENDO",
+		"transactions": []
+	},
+	{
+		"cardType": "TARJETA_CREDITO",
+		"cardNumber": "4940005069432494",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "1800.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "1800.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "Cuenta6",
+		"transactions": []
+	}],
+	"debitCards": [{
+		"cardType": "TARJETA_DEBITO",
+		"cardNumber": "4782820166104833",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"associatedAccount": "",
+		"webAlias": "DEBITO"
+	}],
+	"personalInfo": {
+    "userName": "Carolina Marin",
+    "document": "000814789",
+    "birthdate": "01/01/1980",
+    "phoneNumbers": ["917154545","627778899"],
+    "emails": ["carolina.marin@eurobits.es"],
+    "addresses": [{
+        "addressDescription": "Domicilio Fiscal",
+        "streetAddress": "CL Goya 3",
+        "city": "Aravaca",
+        "stateProvinceRegion": "Madrid",
+        "zipCode": "28023",
+        "country": "España"
+    },{
+        "addressDescription": "Domicilio correspondencia",
+        "streetAddress": "Gran Via 33",
+        "city": "Madrid",
+        "stateProvinceRegion": "Madrid",
+        "zipCode": "28023",
+        "country": "España"
+    }]
+  }
+}

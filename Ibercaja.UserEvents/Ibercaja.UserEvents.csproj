@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1EF6EF4-9312-4B12-A939-6E934D0C509C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ibercaja.UserEvents</RootNamespace>
+    <AssemblyName>Ibercaja.UserEvents</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\build\Latest\NotificationService\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <!-- <PlatformTarget>AnyCPU</PlatformTarget> -->
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\Latest\NotificationService\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Ibercaja.Aggregation">
+      <HintPath>..\..\build\Latest\NotificationService\Ibercaja.Aggregation.dll</HintPath>
+    </Reference>
+    <Reference Include="Ibercaja.ServiceExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Ibercaja.ServiceExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Iberfabric.Notifications, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iberfabric.Notifications.1.0.0-CI-20190617-135210\lib\netstandard2.0\Iberfabric.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Iberfabric.ServiceBus.Messages, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iberfabric.ServiceBus.Messages.1.0.0\lib\netstandard2.0\Iberfabric.ServiceBus.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="IdentityModel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e7877f4675df049f, processorArchitecture=MSIL">
+      <HintPath>..\packages\IdentityModel.4.1.1\lib\net461\IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Component.NotificationFramework, Version=3.5.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Component.NotificationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.28\lib\net46\Microsoft.Diagnostics.Tracing.EventSource.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Component.NotificationFramework.Contracts, Version=3.5.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Component.NotificationFramework.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core, Version=3.8.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core.Data, Version=3.8.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Core.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core.Extensions, Version=3.8.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Core.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Data.Entity, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Runtime, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Runtime.Extensions, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Meniga.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\NotificationService\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NServiceBus.Core, Version=7.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus.7.1.8\lib\net452\NServiceBus.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NServiceBus.Newtonsoft.Json, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus.Newtonsoft.Json.2.1.0\lib\net452\NServiceBus.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NServiceBus.Transport.RabbitMQ, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus.RabbitMQ.5.1.2\lib\net452\NServiceBus.Transport.RabbitMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client, Version=5.0.0.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.5.1.0\lib\net451\RabbitMQ.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.7.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoryWatchEvent\TransactionCategoryWatchProcessor.cs" />
+    <Compile Include="Notifications\UserEventTypes\GastoCuenta\GastoCuentaTypeFactory.cs" />
+    <Compile Include="Notifications\UserEventTypes\GastoCuenta\GastoCuentaDataAccess.cs" />
+    <Compile Include="Notifications\UserEventTypes\GastoCuenta\GastoCuentaProcessor.cs" />
+    <Compile Include="Notifications\UserEventTypes\GastoCuenta\GastoCuentaProcessorData.cs" />
+    <Compile Include="Notifications\UserEventTypes\GastoCuenta\GastoCuentaProcessorSettings.cs" />
+    <Compile Include="Notifications\UserEventTypes\IngresoCuenta\IngresoCuentaFactory.cs" />
+    <Compile Include="Dispatcher\IberfabricNotificationDispatcher.cs" />
+    <Compile Include="Iberfabric\IberfabricBusNotificationService.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="Notifications\INotificationProvider.cs" />
+    <Compile Include="Notifications\INotificationProviderFactory.cs" />
+    <Compile Include="Iberfabric\INotificationService.cs" />
+    <Compile Include="Iberfabric\IberfabricApiNotificationService.cs" />
+    <Compile Include="Notifications\IbercajaNotificationsProviderFactory.cs" />
+    <Compile Include="Notifications\UserEventTypes\AccountsAvailableAmount\AccountsAvailableAmount.cs" />
+    <Compile Include="Notifications\UserEventTypes\IngresoCuenta\IngresoCuentaDataAccess.cs" />
+    <Compile Include="Notifications\UserEventTypes\IngresoCuenta\IngresoCuentaProcessor.cs" />
+    <Compile Include="Notifications\UserEventTypes\IngresoCuenta\IngresoCuentaProcessorData.cs" />
+    <Compile Include="Notifications\UserEventTypes\IngresoCuenta\IngresoCuentaProcessorSettings.cs" />
+    <Compile Include="Notifications\UserEventTypes\IngresoCuenta\IngresoCuentaTransaction.cs" />
+    <Compile Include="Notifications\UserEventTypes\IbercajaUserEventTypes.cs" />
+    <Compile Include="Notifications\UserEventTypes\TransactionsThresholdExpenses\TransactionsThresholdExpenses.cs" />
+    <Compile Include="Notifications\UserEventTypes\TransactionsDeposit\TransactionsDeposit.cs" />
+    <Compile Include="Notifications\UserEventTypes\Unknown\UnknownNotificationProvider.cs" />
+    <Compile Include="CustomEventsComponent.cs" />
+    <Compile Include="UserEventsComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\NServiceBus.7.1.8\analyzers\dotnet\cs\NServiceBus.Core.Analyzer.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(TargetName).dll" "C:\Meniga\ibercaja\build\latest\MenigaServices\bin\$(TargetName).dll"
+copy /Y "$(TargetDir)$(TargetName).pdb" "C:\Meniga\ibercaja\build\latest\MenigaServices\bin\$(TargetName).pdb"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

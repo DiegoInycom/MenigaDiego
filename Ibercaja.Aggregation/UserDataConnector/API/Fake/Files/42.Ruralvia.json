@@ -1,0 +1,53 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "0198",
+		"branch": "0001",
+		"controlDigits": "42",
+		"account": "2022483222",
+		"balance": {
+			"amount": "183.55",
+			"currency": "EUR"
+		},
+		"webAlias": "C/C PARTICULARES",
+		"transactions": []
+	}],
+	"accountHolders": [{
+		"bank": "0198",
+		"branch": "0001",
+		"controlDigits": "42",
+		"accountNumber": "2022483222",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "***1478**",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	}],
+	"funds": [{
+		"branch": "0001",
+		"controlDigits": "43",
+		"accountNumber": "2026044681",
+		"balance": {
+			"amount": "5.94",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "RURAL RENTA FIJA 1,FI",
+		"webAlias": "0198 0001 43 2026044681 | RURAL RENTA FIJA 1 FI",
+		"performance": "NaN",
+		"performanceDescription": "",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "0.00469200",
+		"valueDate": "15/05/2018",
+		"transactions": []
+	}]
+}

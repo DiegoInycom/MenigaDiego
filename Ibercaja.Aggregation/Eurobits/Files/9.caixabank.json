@@ -1,0 +1,124 @@
+{
+  "aggregationInfo": {
+    "code": "R000",
+    "message": "OK",
+    "companies": [ "" ],
+    "warnings": []
+  },
+  "accounts": [
+    {
+      "bank": "2100",
+      "branch": "2904",
+      "controlDigits": "04",
+      "account": "0206464348",
+      "balance": {
+        "amount": "0.00",
+        "currency": "EUR"
+      },
+      "webAlias": "IMAGIN",
+      "transactions": []
+    },
+    {
+      "bank": "2100",
+      "branch": "3946",
+      "controlDigits": "06",
+      "account": "0200130450",
+      "balance": {
+        "amount": "1750.78",
+        "currency": "EUR"
+      },
+      "webAlias": "CUENTA CORRIENTE",
+      "transactions": [
+        {
+          "operationDate": "10/05/2018",
+          "valueDate": "10/05/2018",
+          "amount": {
+            "amount": "10.00",
+            "currency": ""
+          },
+          "balance": {
+            "amount": "1750.78",
+            "currency": ""
+          },
+          "transactionType": "1",
+          "description": "ABONOS DIVERSOS",
+          "reference": "",
+          "payer": "ARTURO GONZALEZ MAC DOWELL",
+          "payee": ""
+        },
+        {
+          "operationDate": "10/05/2018",
+          "valueDate": "10/05/2018",
+          "amount": {
+            "amount": "-10.00",
+            "currency": ""
+          },
+          "balance": {
+            "amount": "1740.78",
+            "currency": ""
+          },
+          "transactionType": "1",
+          "description": "PAGO TRASPASOS",
+          "reference": "",
+          "payer": "3946-56-0000952-21 000062 000001",
+          "payee": ""
+        }
+      ]
+    },
+    {
+      "bank": "2100",
+      "branch": "9153",
+      "controlDigits": "66",
+      "account": "2200083310",
+      "balance": {
+        "amount": "72.06",
+        "currency": "EUR"
+      },
+      "webAlias": "CUENTA EN EUROS",
+      "transactions": []
+    }
+  ],
+  "deposits": [
+    {
+      "bank": "2100",
+      "branch": "3946",
+      "controlDigits": "**",
+      "accountNumber": "03000087474",
+      "number": "0",
+      "balance": {
+        "amount": "1000.00",
+        "currency": "Default"
+      },
+      "interest": {
+        "rate": "0.000",
+        "type": "TAE"
+      },
+      "duration": {
+        "startDate": "04/04/2018",
+        "endDate": "04/04/2019"
+      },
+      "webAlias": "Plazo interés fijo"
+    }
+  ],
+  "creditCards": [
+    {
+      "cardType": "VISA CLASSIC",
+      "cardNumber": "4548037771321018",
+      "disposed": {
+        "amount": "0.00",
+        "currency": "EUR"
+      },
+      "available": {
+        "amount": "300.00",
+        "currency": "EUR"
+      },
+      "limit": {
+        "amount": "300.00",
+        "currency": "EUR"
+      },
+      "expirationDate": "31/12/9999",
+      "webAlias": "VISA CLASSIC",
+      "transactions": []
+    }
+  ]
+}

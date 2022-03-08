@@ -1,0 +1,165 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "3035",
+		"branch": "0121",
+		"controlDigits": "30",
+		"account": "1210066839",
+		"balance": {
+			"amount": "15.75",
+			"currency": "EUR"
+		},
+		"webAlias": "SUPERCUENTA",
+		"transactions": [{
+			"operationDate": "04/06/2018",
+			"valueDate": "31/05/2018",
+			"amount": {
+				"amount": "-6.50",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "15.75",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "LIQUID. INTERESES Y COMISIONES",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "3035",
+		"branch": "0121",
+		"controlDigits": "34",
+		"account": "1210066884",
+		"balance": {
+			"amount": "1216.02",
+			"currency": "EUR"
+		},
+		"webAlias": "SUPER CUENTA EMPRESA",
+		"transactions": [{
+			"operationDate": "04/06/2018",
+			"valueDate": "31/05/2018",
+			"amount": {
+				"amount": "-9.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1216.02",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "LIQUID. INTERESES Y COMISIONES",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "3035",
+		"branch": "0121",
+		"controlDigits": "30",
+		"accountNumber": "1210066839",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "3035",
+		"branch": "0121",
+		"controlDigits": "34",
+		"accountNumber": "1210066884",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES,S.L.",
+			"document": "B83852160",
+			"relation": "titular",
+			"category": "1"
+		},
+		{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "apoderado",
+			"category": "2"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "6801999747",
+		"webAlias": "CUENTA DE VALORES",
+		"balance": {
+			"amount": "43.75",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "ACC.BANKINTER",
+			"unitPrice": {
+				"amount": "43.75",
+				"currency": "EUR"
+			},
+			"quantity": "5.0",
+			"valuationDate": "12/06/2018",
+			"market": "MERC.CONTINUO  "
+		}]
+	}],
+	"funds": [{
+		"branch": "",
+		"controlDigits": "",
+		"accountNumber": "5040248599",
+		"balance": {
+			"amount": "128.64",
+			"currency": "EUR"
+		},
+		"number": "",
+		"fundName": "C.L. PATRIMONIO, FI",
+		"webAlias": "C.L. PATRIMONIO, FI",
+		"performance": "",
+		"performanceDescription": "",
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "9.178",
+		"valueDate": "",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "",
+		"cardNumber": "4548591583115109",
+		"disposed": {
+			"amount": "-6.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "756.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "750.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "VISA CLASICA",
+		"transactions": []
+	}],
+	"debitCards": [{
+		"cardType": "",
+		"cardNumber": "4508271583107004",
+		"disposed": {
+			"amount": "15.75",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"associatedAccount": "",
+		"webAlias": "VISA ELECTRÓN",
+		"transactions": []
+	}]
+}

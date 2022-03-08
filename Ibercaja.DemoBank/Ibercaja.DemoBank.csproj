@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27433E9A-8AF1-44CA-895A-10DCA6B6FCDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ibercaja.DemoBank</RootNamespace>
+    <AssemblyName>Ibercaja.DemoBank</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\build\Latest\MenigaServices\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\Latest\MenigaServices\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core, Version=3.8.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core.Data, Version=3.8.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Core.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core.Extensions">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Core.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Data.Entity">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Demo">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Demo.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Demo.Contracts">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Demo.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Pfm.Data">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Pfm.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Runtime.Extensions">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ibercaja\build\Latest\MenigaServices\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDataConnector\IbercajaDemoRealmConnector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ibercaja.Aggregation\Ibercaja.Aggregation.csproj">
+      <Project>{db6a18b1-4328-4796-8f3b-67bcf5d6e9b3}</Project>
+      <Name>Ibercaja.Aggregation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

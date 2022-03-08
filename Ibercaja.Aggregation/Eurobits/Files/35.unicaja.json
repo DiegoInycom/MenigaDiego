@@ -1,0 +1,115 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "2103",
+		"branch": "0501",
+		"controlDigits": "18",
+		"account": "0030015004",
+		"balance": {
+			"amount": "149.93",
+			"currency": "EUR"
+		},
+		"webAlias": "ES79 2103 0501 1800 3001 5004",
+		"transactions": [{
+			"operationDate": "15/05/2018",
+			"valueDate": "15/05/2018",
+			"amount": {
+				"amount": "10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "159.93",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "EUROBITS TECHNOLOGIES, S.L.",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "25/05/2018",
+			"valueDate": "25/05/2018",
+			"amount": {
+				"amount": "-10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "149.93",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "TX MONITOR",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "2103",
+		"branch": "0501",
+		"controlDigits": "18",
+		"accountNumber": "0030015004",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "",
+			"relation": "TITULAR PRINCIPAL",
+			"category": "1"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "0420595007",
+		"webAlias": "VALORES",
+		"balance": {
+			"amount": "0.02",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "ACCS. ABENGOA SERIE B",
+			"unitPrice": {
+				"amount": "0.01",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "12/06/2018",
+			"market": ""
+		},
+		{
+			"name": "WARR. ABENGOA CALL ABENGOA SER/B",
+			"unitPrice": {
+				"amount": "0.01",
+				"currency": "EUR"
+			},
+			"quantity": "1.0",
+			"valuationDate": "12/06/2018",
+			"market": ""
+		}]
+	}],
+	"funds": [{
+		"branch": "0511",
+		"controlDigits": "93",
+		"accountNumber": "0250000717",
+		"balance": {
+			"amount": "167.99",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "120 - UNIF RENTA FIJA EURO",
+		"webAlias": "120 - UNIF RENTA FIJA EURO",
+		"performance": "-0.920000",
+		"performanceDescription": "TAE",
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "0.133231",
+		"valueDate": "11/06/2018",
+		"transactions": []
+	}]
+}

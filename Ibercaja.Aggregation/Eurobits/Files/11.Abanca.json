@@ -1,0 +1,92 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "2080",
+		"branch": "0695",
+		"controlDigits": "74",
+		"account": "3040001722",
+		"balance": {
+			"amount": "-99.06",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta corriente",
+		"transactions": [
+			{
+				"operationDate": "14/12/2020",
+				"valueDate": "14/12/2020",
+				"amount": {
+					"amount": "-20000000.02",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-20000099.06",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "INTERESES CTA: 381-0806-104903/8",
+				"reference": "",
+				"payer": "",
+				"payee": ""
+			},
+			{
+				"operationDate": "14/12/2020",
+				"valueDate": "14/12/2020",
+				"amount": {
+					"amount": "-2000.02",
+					"currency": ""
+				},
+				"balance": {
+					"amount": "-20099.06",
+					"currency": ""
+				},
+				"transactionType": "1",
+				"description": "INTERESES CTA: 333-0806-104903/8",
+				"reference": "",
+				"payer": "",
+				"payee": ""
+			}]
+	}],
+	"accountHolders": [{
+		"bank": "2080",
+		"branch": "0695",
+		"controlDigits": "74",
+		"accountNumber": "3040001722",
+		"holders": [{
+			"name": "EUROBITS TECHNOLOGIES,S.L. ,",
+			"document": "",
+			"relation": "TITULAR",
+			"category": "1"
+		},
+		{
+			"name": "GONZALEZ MAC DOWELL, ARTURO",
+			"document": "",
+			"relation": "AUTORIZADO",
+			"category": "2"
+		}]
+	}],
+	"deposits": [{
+		"bank": "2080",
+		"branch": "0806",
+		"controlDigits": "30",
+		"accountNumber": "3811049038",
+		"number": "0",
+		"balance": {
+			"amount": "3000.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "0.0",
+			"type": ""
+		},
+		"duration": {
+			"startDate": "17/09/2012",
+			"endDate": "17/07/2018"
+		},
+		"webAlias": "Depósito Online"
+	}]
+}

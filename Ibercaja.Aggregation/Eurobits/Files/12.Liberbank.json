@@ -1,0 +1,131 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "2048",
+		"branch": "2044",
+		"controlDigits": "37",
+		"account": "3400012902",
+		"balance": {
+			"amount": "99.94",
+			"currency": "EUR"
+		},
+		"webAlias": "CUENTA DE ARTURO             X",
+		"transactions": []
+	}],
+	"accountHolders": [{
+		"bank": "2048",
+		"branch": "2044",
+		"controlDigits": "37",
+		"accountNumber": "3400012902",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "000814788J",
+			"relation": "TITULAR",
+			"category": "1"
+		}]
+	}],
+	"deposits": [{
+		"bank": "2048",
+		"branch": "2044",
+		"controlDigits": "30",
+		"accountNumber": "2600023198",
+		"number": "0",
+		"balance": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "0",
+			"type": "Nominal"
+		},
+		"duration": {
+			"startDate": "31/12/9999",
+			"endDate": "31/12/9999"
+		},
+		"webAlias": "E-DEPOSITO PLAZO FIJO"
+	},
+	{
+		"bank": "2048",
+		"branch": "2044",
+		"controlDigits": "37",
+		"accountNumber": "2600023180",
+		"number": "1",
+		"balance": {
+			"amount": "30.00",
+			"currency": "EUR"
+		},
+		"interest": {
+			"rate": "0",
+			"type": "Nominal"
+		},
+		"duration": {
+			"startDate": "31/12/9999",
+			"endDate": "31/12/9999"
+		},
+		"webAlias": "E-DEPOSITO PLAZO FIJO"
+	}],
+	"shares": [{
+		"accountNumber": "7200004126",
+		"webAlias": "CUENTAS DE VALORES",
+		"balance": {
+			"amount": "17.50",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "ACC  BANCO INTERCONTIN.ESPAÑOL",
+			"unitPrice": {
+				"amount": "8.75",
+				"currency": "EUR"
+			},
+			"quantity": "2.0",
+			"valuationDate": "12/06/2018",
+			"market": ""
+		}]
+	}],
+	"funds": [{
+		"branch": "2044",
+		"controlDigits": "37",
+		"accountNumber": "7000003880",
+		"balance": {
+			"amount": "12.34",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "022-LBK CART.MODE A",
+		"webAlias": "022-LBK CART.MODE A",
+		"performance": "",
+		"performanceDescription": "",
+		"yield": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"quantity": "",
+		"valueDate": "12/06/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "VISA CLASSIC",
+		"cardNumber": "4507091127192010",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "100.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "100.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "VISA CLASSIC",
+		"transactions": []
+	}]
+}

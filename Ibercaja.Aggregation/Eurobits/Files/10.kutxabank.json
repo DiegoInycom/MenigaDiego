@@ -1,0 +1,126 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": [{
+			
+		}]
+	},
+	"accounts": [{
+		"bank": "2095",
+		"branch": "3312",
+		"controlDigits": "12",
+		"account": "1090442863",
+		"balance": {
+			"amount": "3312.97",
+			"currency": "EUR"
+		},
+		"webAlias": "kuenta korriente",
+		"transactions": [{
+			"operationDate": "18/04/2018",
+			"valueDate": "18/04/2018",
+			"amount": {
+				"amount": "-12.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "3320.23",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "COMISION MANTENIM.CUENTA",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "02/05/2018",
+			"valueDate": "02/05/2018",
+			"amount": {
+				"amount": "-7.26",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "3312.97",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "RECIBO EMPRESAS NET",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	}],
+	"accountHolders": [{
+		"bank": "2095",
+		"branch": "3312",
+		"controlDigits": "12",
+		"accountNumber": "1090442863",
+		"holders": [{
+			"name": "GONZALEZ MAC DOWELL ARTURO",
+			"document": "814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "4617785791",
+		"webAlias": "cuenta de valores",
+		"balance": {
+			"amount": "45.05",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BANKINTER",
+			"unitPrice": {
+				"amount": "9.01",
+				"currency": "EUR"
+			},
+			"quantity": "5.0",
+			"valuationDate": "16/05/2018",
+			"market": "MC"
+		}]
+	}],
+	"funds": [{
+		"branch": "3312",
+		"controlDigits": "**",
+		"accountNumber": "9405809522",
+		"balance": {
+			"amount": "14.89",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "kutxabank bono FI clase estándar",
+		"webAlias": "kutxabank bono FI clase estándar",
+		"performance": "-0.26",
+		"performanceDescription": "Rentabilidad 2018 desde 1 Enero",
+		"yield": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"quantity": "1.444729",
+		"valueDate": "31/12/9999",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "visa classic empresa",
+		"cardNumber": "4540592000030770",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "300.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "300.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "tarjeta visa classic empresa",
+		"transactions": []
+	}]
+}

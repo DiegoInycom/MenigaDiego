@@ -1,0 +1,452 @@
+{
+	"aggregationInfo": {
+		"code": "R000",
+		"message": "OK",
+		"companies": [""],
+		"warnings": []
+	},
+	"accounts": [{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "96",
+		"account": "1730468534",
+		"balance": {
+			"amount": "2000.00",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta SIN NÓMINA",
+		"transactions": []
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "98",
+		"account": "2004247182",
+		"balance": {
+			"amount": "2003.00",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta NARANJA",
+		"transactions": [{
+			"operationDate": "07/05/2018",
+			"valueDate": "07/05/2018",
+			"amount": {
+				"amount": "-1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "2003.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Ingreso Fondos-Planes",
+			"reference": "APORTACIONES AL PLAN: 4102236838-13-32",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "2004.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso interno periódico recibido",
+			"reference": "SPO From 1000022571",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "0.06",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1994.00",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Intereses a su favor",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "26/04/2018",
+			"valueDate": "26/04/2018",
+			"amount": {
+				"amount": "-10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "1993.94",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso interno emitido periódico",
+			"reference": "SPO To 1000022571",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "24/04/2018",
+			"valueDate": "24/04/2018",
+			"amount": {
+				"amount": "-10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "2003.94",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso interno emitido periódico",
+			"reference": "SPO To 1000022571",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "24/04/2018",
+			"valueDate": "24/04/2018",
+			"amount": {
+				"amount": "-1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "2013.94",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Traspaso interno emitido periódico",
+			"reference": "SPO To 1000022571",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "99",
+		"account": "1000022571",
+		"balance": {
+			"amount": "178.87",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta de efectivo",
+		"transactions": [{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "-10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "178.87",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Cargo en cuenta",
+			"reference": "SPO To 2004247182",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "26/04/2018",
+			"valueDate": "26/04/2018",
+			"amount": {
+				"amount": "10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "188.87",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Abono depósito",
+			"reference": "SPO From 2004247182",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "24/04/2018",
+			"valueDate": "24/04/2018",
+			"amount": {
+				"amount": "10.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "178.87",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Abono depósito",
+			"reference": "SPO From 2004247182",
+			"payer": "",
+			"payee": ""
+		},
+		{
+			"operationDate": "24/04/2018",
+			"valueDate": "24/04/2018",
+			"amount": {
+				"amount": "1.00",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "168.87",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Abono depósito",
+			"reference": "SPO From 2004247182",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "93",
+		"account": "2024164267",
+		"balance": {
+			"amount": "64.52",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta NARANJA",
+		"transactions": [{
+			"operationDate": "01/05/2018",
+			"valueDate": "01/05/2018",
+			"amount": {
+				"amount": "0.01",
+				"currency": ""
+			},
+			"balance": {
+				"amount": "64.52",
+				"currency": ""
+			},
+			"transactionType": "1",
+			"description": "Intereses a su favor",
+			"reference": "",
+			"payer": "",
+			"payee": ""
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "91",
+		"account": "1001368609",
+		"balance": {
+			"amount": "1.00",
+			"currency": "EUR"
+		},
+		"webAlias": "Cuenta de efectivo",
+		"transactions": []
+	}],
+	"accountHolders": [{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "96",
+		"accountNumber": "1730468534",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "98",
+		"accountNumber": "2004247182",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "Titular",
+			"category": "1"
+		},
+		{
+			"name": "PALOMA FERNANDEZ GAMELLA",
+			"document": "",
+			"relation": "Autorizado",
+			"category": "2"
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "99",
+		"accountNumber": "1000022571",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "Titular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "93",
+		"accountNumber": "2024164267",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "Primer titular",
+			"category": "1"
+		},
+		{
+			"name": "PALOMA FERNANDEZ GAMELLA",
+			"document": "",
+			"relation": "Cotitular",
+			"category": "1"
+		}]
+	},
+	{
+		"bank": "1465",
+		"branch": "0100",
+		"controlDigits": "91",
+		"accountNumber": "1001368609",
+		"holders": [{
+			"name": "ARTURO GONZALEZ MAC DOWELL",
+			"document": "00814788J",
+			"relation": "Primer titular",
+			"category": "1"
+		},
+		{
+			"name": "PALOMA FERNANDEZ GAMELLA",
+			"document": "",
+			"relation": "Cotitular",
+			"category": "1"
+		}]
+	}],
+	"shares": [{
+		"accountNumber": "4200023225",
+		"webAlias": "Cuenta de valores",
+		"balance": {
+			"amount": "134.82",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": [{
+			"name": "BANKINTER",
+			"unitPrice": {
+				"amount": "8.98",
+				"currency": "EUR"
+			},
+			"quantity": "15.0",
+			"valuationDate": "16/05/2018",
+			"market": "Español"
+		}]
+	},
+	{
+		"accountNumber": "4201370384",
+		"webAlias": "Cuenta de valores",
+		"balance": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"transactions": [],
+		"stocks": []
+	}],
+	"funds": [{
+		"branch": "0100",
+		"controlDigits": "92",
+		"accountNumber": "40002308585",
+		"balance": {
+			"amount": "13.75",
+			"currency": "EUR"
+		},
+		"number": "0",
+		"fundName": "Fondo Ibex 35",
+		"webAlias": "Fondo Ibex 35",
+		"performance": "37.5",
+		"performanceDescription": "Rentabilidad acumulada",
+		"yield": {
+			"amount": "3.75",
+			"currency": "EUR"
+		},
+		"quantity": "0.802857",
+		"valueDate": "11/05/2018",
+		"transactions": []
+	}],
+	"creditCards": [{
+		"cardType": "Tarjeta Crédito",
+		"cardNumber": "5160972272563011",
+		"disposed": {
+			"amount": "0.00",
+			"currency": "EUR"
+		},
+		"available": {
+			"amount": "4000.00",
+			"currency": "EUR"
+		},
+		"limit": {
+			"amount": "4000.00",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"webAlias": "Tarjeta Crédito",
+		"transactions": []
+	}],
+	"debitCards": [{
+		"cardType": "Débito",
+		"cardNumber": "5351206042794013",
+		"disposed": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"expirationDate": "31/12/9999",
+		"associatedAccount": "14650100961730468534",
+		"webAlias": "(sin alias)",
+		"transactions": []
+	}],
+	"pensionPlans": [{
+		"planNumber": "410223683813",
+		"planName": "Plan 2020",
+		"webAlias": "",
+		"balance": {
+			"amount": "32.94",
+			"currency": "EUR"
+		},
+		"unitPrice": "12.892",
+		"totalContribution": {
+			"amount": "32.00",
+			"currency": "EUR"
+		},
+		"yearToDateContribution": {
+			"amount": "",
+			"currency": "EUR"
+		},
+		"planPerformance": {
+			"total": "2.94 %",
+			"yearToDate": "0.00 %",
+			"lastTwelveMonths": "-0.36 %"
+		},
+		"yield": {
+			"amount": "0.94",
+			"currency": "EUR"
+		},
+		"quantity": "2.555242",
+		"valueDate": "11/05/2018",
+		"startDate": "06/10/2015",
+		"transactions": [{
+			"operationType": "0",
+			"operationDescription": "Aportaciones periódicas",
+			"operationDate": "07/05/2018",
+			"quantity": "0.077705",
+			"unitPrice": "12.869",
+			"amount": {
+				"amount": "1.00",
+				"currency": "EUR"
+			}
+		}]
+	}]
+}

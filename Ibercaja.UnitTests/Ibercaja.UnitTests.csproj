@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67357031-6BC6-46C0-AD2E-834EDA0A99EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IberCaja.UnitTests</RootNamespace>
+    <AssemblyName>IberCaja.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\Net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Meniga.Core, Version=3.8.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core.Data, Version=3.8.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Core.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Core.Extensions, Version=3.0.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Core.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Data.Entity, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Pfm.Contracts">
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Pfm.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Meniga.Runtime.Extensions, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Meniga.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=4.2.1507.118, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\Latest\MenigaServices\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="CurrentAccountProviderTests.cs" />
+    <Compile Include="DateAmountTextCustomDataDuplicateResolverTests.cs" />
+    <Compile Include="EurobitsIbercajaTest.cs" />
+    <Compile Include="Helpers\DataMock.cs" />
+    <Compile Include="Helpers\FakeSecurityService.cs" />
+    <Compile Include="Helpers\InMemoryAccountRepository.cs" />
+    <Compile Include="Helpers\InMemoryGlobalApplicationParameterCache.cs" />
+    <Compile Include="Helpers\InMemorySychronizationStatusProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionDataFormatParserTests.cs" />
+    <Compile Include="UserDataConnectorConfigurationTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Release\IberCaja.UnitTests.dll.config" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\Ibercaja.UnitTests.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ibercaja.Aggregation\Ibercaja.Aggregation.csproj">
+      <Project>{db6a18b1-4328-4796-8f3b-67bcf5d6e9b3}</Project>
+      <Name>Ibercaja.Aggregation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ibercaja.ServiceExtensions\Ibercaja.ServiceExtensions.csproj">
+      <Project>{49803cc0-7095-4c17-a0dc-4364affa8933}</Project>
+      <Name>Ibercaja.ServiceExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Release\amqmdnet.dll" />
+    <Content Include="bin\Release\Antlr4.Runtime.dll" />
+    <Content Include="bin\Release\AutoMapper.dll" />
+    <Content Include="bin\Release\AutoMapper.xml" />
+    <Content Include="bin\Release\Ciloci.Flee.dll" />
+    <Content Include="bin\Release\Ciloci.Flee.xml" />
+    <Content Include="bin\Release\CodeFirstStoreFunctions.dll" />
+    <Content Include="bin\Release\cs\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\da\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\de\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\EntityFramework.dll" />
+    <Content Include="bin\Release\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Release\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Release\EntityFramework.xml" />
+    <Content Include="bin\Release\es\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\fa\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\fi\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\FluentValidation.dll" />
+    <Content Include="bin\Release\FluentValidation.pdb" />
+    <Content Include="bin\Release\FluentValidation.xml" />
+    <Content Include="bin\Release\fr\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\GreenPipes.dll" />
+    <Content Include="bin\Release\GreenPipes.xml" />
+    <Content Include="bin\Release\HtmlAgilityPack.dll" />
+    <Content Include="bin\Release\HtmlAgilityPack.pdb" />
+    <Content Include="bin\Release\HtmlAgilityPack.xml" />
+    <Content Include="bin\Release\Ibercaja.Aggregation.dll" />
+    <Content Include="bin\Release\Ibercaja.Aggregation.pdb" />
+    <Content Include="bin\Release\Ibercaja.ServiceExtensions.dll" />
+    <Content Include="bin\Release\Ibercaja.ServiceExtensions.pdb" />
+    <Content Include="bin\Release\IberCaja.UnitTests.dll" />
+    <Content Include="bin\Release\IberCaja.UnitTests.pdb" />
+    <Content Include="bin\Release\IdentityModel.dll" />
+    <Content Include="bin\Release\IdentityModel.pdb" />
+    <Content Include="bin\Release\ImageProcessor.dll" />
+    <Content Include="bin\Release\it\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\ko\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\LinqKit.dll" />
+    <Content Include="bin\Release\LinqKit.xml" />
+    <Content Include="bin\Release\log4net.dll" />
+    <Content Include="bin\Release\log4net.xml" />
+    <Content Include="bin\Release\Lucene.Net.Contrib.Snowball.dll" />
+    <Content Include="bin\Release\Lucene.Net.Contrib.Snowball.pdb" />
+    <Content Include="bin\Release\Lucene.Net.Contrib.Snowball.xml" />
+    <Content Include="bin\Release\Lucene.Net.dll" />
+    <Content Include="bin\Release\Lucene.Net.pdb" />
+    <Content Include="bin\Release\Lucene.Net.xml" />
+    <Content Include="bin\Release\MassTransit.dll" />
+    <Content Include="bin\Release\MassTransit.QuartzIntegration.dll" />
+    <Content Include="bin\Release\MassTransit.QuartzIntegration.xml" />
+    <Content Include="bin\Release\MassTransit.RabbitMqTransport.dll" />
+    <Content Include="bin\Release\MassTransit.RabbitMqTransport.xml" />
+    <Content Include="bin\Release\MassTransit.xml" />
+    <Content Include="bin\Release\MediatR.dll" />
+    <Content Include="bin\Release\MediatR.xml" />
+    <Content Include="bin\Release\Meniga.Antlr.dll" />
+    <Content Include="bin\Release\Meniga.Antlr.pdb" />
+    <Content Include="bin\Release\Meniga.Core.Data.dll" />
+    <Content Include="bin\Release\Meniga.Core.Data.Native.dll" />
+    <Content Include="bin\Release\Meniga.Core.Data.Native.pdb" />
+    <Content Include="bin\Release\Meniga.Core.Data.pdb" />
+    <Content Include="bin\Release\Meniga.Core.dll" />
+    <Content Include="bin\Release\Meniga.Core.Extensions.dll" />
+    <Content Include="bin\Release\Meniga.Core.Extensions.pdb" />
+    <Content Include="bin\Release\Meniga.Core.Extensions.xml" />
+    <Content Include="bin\Release\Meniga.Core.pdb" />
+    <Content Include="bin\Release\Meniga.Data.Entity.dll" />
+    <Content Include="bin\Release\Meniga.Data.Entity.pdb" />
+    <Content Include="bin\Release\Meniga.Datawarehouse.Data.dll" />
+    <Content Include="bin\Release\Meniga.Merchants.Cache.dll" />
+    <Content Include="bin\Release\Meniga.Merchants.Cache.pdb" />
+    <Content Include="bin\Release\Meniga.Merchants.Data.dll" />
+    <Content Include="bin\Release\Meniga.Merchants.Data.pdb" />
+    <Content Include="bin\Release\Meniga.Merchants.Extensions.dll" />
+    <Content Include="bin\Release\Meniga.Merchants.Extensions.pdb" />
+    <Content Include="bin\Release\Meniga.Pfm.Contracts.dll" />
+    <Content Include="bin\Release\Meniga.Pfm.Contracts.pdb" />
+    <Content Include="bin\Release\Meniga.Pfm.Contracts.xml" />
+    <Content Include="bin\Release\Meniga.Runtime.Extensions.dll" />
+    <Content Include="bin\Release\Meniga.Runtime.Extensions.pdb" />
+    <Content Include="bin\Release\Microsoft.Diagnostics.Tracing.EventSource.dll" />
+    <Content Include="bin\Release\Microsoft.Diagnostics.Tracing.EventSource.xml" />
+    <Content Include="bin\Release\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml" />
+    <Content Include="bin\Release\Microsoft.Practices.Unity.xml" />
+    <Content Include="bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
+    <Content Include="bin\Release\mk\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\Moq.dll" />
+    <Content Include="bin\Release\Moq.xml" />
+    <Content Include="bin\Release\MoreLinq.dll" />
+    <Content Include="bin\Release\MoreLinq.xml" />
+    <Content Include="bin\Release\NCrontab.Advanced.dll" />
+    <Content Include="bin\Release\NewId.dll" />
+    <Content Include="bin\Release\NewId.xml" />
+    <Content Include="bin\Release\Newtonsoft.Json.Bson.dll" />
+    <Content Include="bin\Release\Newtonsoft.Json.Bson.xml" />
+    <Content Include="bin\Release\Newtonsoft.Json.dll" />
+    <Content Include="bin\Release\Newtonsoft.Json.xml" />
+    <Content Include="bin\Release\nl\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\Nustache.Core.dll" />
+    <Content Include="bin\Release\OFXImporter.dll" />
+    <Content Include="bin\Release\OFXImporter.pdb" />
+    <Content Include="bin\Release\pl\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\pt\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\Quartz.dll" />
+    <Content Include="bin\Release\Quartz.pdb" />
+    <Content Include="bin\Release\Quartz.xml" />
+    <Content Include="bin\Release\RabbitMQ.Client.dll" />
+    <Content Include="bin\Release\RabbitMQ.Client.xml" />
+    <Content Include="bin\Release\ru\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\sv\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\System.Linq.Dynamic.dll" />
+    <Content Include="bin\Release\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\Release\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\Release\System.Reactive.Core.dll" />
+    <Content Include="bin\Release\System.Reactive.Core.xml" />
+    <Content Include="bin\Release\System.Reactive.Interfaces.dll" />
+    <Content Include="bin\Release\System.Reactive.Interfaces.xml" />
+    <Content Include="bin\Release\System.Reactive.Linq.dll" />
+    <Content Include="bin\Release\System.Reactive.Linq.xml" />
+    <Content Include="bin\Release\System.Reactive.PlatformServices.dll" />
+    <Content Include="bin\Release\System.Reactive.PlatformServices.xml" />
+    <Content Include="bin\Release\System.ValueTuple.dll" />
+    <Content Include="bin\Release\System.ValueTuple.xml" />
+    <Content Include="bin\Release\tr\FluentValidation.resources.dll" />
+    <Content Include="bin\Release\Z.EntityFramework.Plus.EF6.dll" />
+    <Content Include="bin\Release\zh-CN\FluentValidation.resources.dll" />
+    <Content Include="obj\Release\Ibercaja.UnitTests.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\IberCaja.UnitTests.dll" />
+    <Content Include="obj\Release\IberCaja.UnitTests.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
